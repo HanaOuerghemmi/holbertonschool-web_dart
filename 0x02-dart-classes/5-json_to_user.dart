@@ -1,6 +1,5 @@
-import 'dart:convert';
 
-// ignore_for_file: public_member_api_docs, sort_constructors_first
+
 class User {
   int id;
   String name;
@@ -31,6 +30,6 @@ class User {
 
   @override
   String toString() {
-    return 'User(id: $id ,name: $name, age: $age, height: $height)\n';
+    return 'User(id: $id ,name: $name, age: $age, height: $height)';
   }
 }
